@@ -1,0 +1,68 @@
+ #container7{
+    
+    
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    margin-top: 20px;
+}
+#container{
+    
+    text-align: center;
+    width: 20%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#day{
+    border: 5px solid rgb(255, 196, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 26px;
+}
+#day>img{
+    width: 140px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 15px;
+    
+}
+.mapouter{
+    margin-left: 400px;
+    margin-bottom: 130px;
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px
+    
+   
+} 
+#bdy{
+    background-image: url("https://thesalesopsguy.files.wordpress.com/2020/08/westher-animation.gif");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+ #city{
+    width: 250px;
+     border-radius: 5px;
+    height: 20px;
+    border: 5px solid rgb(255, 196, 0); 
+    
+    
+    
+} 
+#div1{
+/* margin: 5px 10px 10px 550px; */
+text-align: center;
+
+   
+}
+
+
+.gmap_11 {overflow:hidden;background:none!important;height:500px;width:600px;}
+
+
+
+
